@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Starting user-data \$(whoami)" >> /tmp/user-data.txt 2>&1
+
 S3_BUCKET_NAME=MY_S3_BUCKET
 VPN_URL=MY_VPN_DOMAIN
 VPN_PEER=MY_VPN_PEER
